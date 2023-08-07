@@ -1,0 +1,2 @@
+1. java prog to enter 10 nos and display the number of positive negative and 0s
+2. generate odd no.s from 1-100
