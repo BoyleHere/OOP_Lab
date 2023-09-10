@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class numtable{
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner scan= new Scanner(System.in);
         System.out.println("Enter the number to print the table of:");
         int n = scan.nextInt();
