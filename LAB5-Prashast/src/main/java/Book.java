@@ -34,7 +34,7 @@ class Book {
     {
 
         List<Book> bookList = new ArrayList<>();
-        //Book in ascending order...
+     
         bookList.add(new Book("Book 1", "Author 1", 1));
         bookList.add(new Book("Book 2", "Author 1", 2));
         bookList.add(new Book("Book 3", "Author 2", 1));
@@ -42,13 +42,13 @@ class Book {
         bookList.add(new Book("Book 5", "Author 3", 1));
         bookList.add(new Book("Book 6", "Author 4", 1));
 
-        //user input for author name...
+        
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter author name : ");
+        System.out.println("Enter author name : ");
         String userInput = sc.nextLine();
 
 
-        //Display book details...
+  
         boolean foundAuthor = false;
         for (Book book : bookList) 
         {
@@ -64,7 +64,7 @@ class Book {
         
         if (!foundAuthor) 
         {
-            System.out.println("No books found for the specified author...");
+            System.out.println("No books found for the specified author.");
         }
         
         

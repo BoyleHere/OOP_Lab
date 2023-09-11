@@ -7,7 +7,7 @@
  *
  * @author student
  */
-/*
+
 public class Account {
     private String name;
     private String accountNumber;
@@ -84,4 +84,4 @@ public class CurrentAccount extends Account {
             // Impose penalty
         }
     }
-}*/
+}

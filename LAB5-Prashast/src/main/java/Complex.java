@@ -18,7 +18,7 @@ public class Complex {
         }
     }
 
-    // Add(integer,complex)...
+ 
     public Complex add1(int num, Complex c) 
     {
         double r = real + num;
@@ -26,7 +26,7 @@ public class Complex {
         return new Complex(r, i);
     }
 
-    //Add(complex,complex)...
+   
     public Complex add2(Complex c1, Complex c2) 
     {
         double r = c1.real + c2.real;

@@ -32,14 +32,17 @@ public class principlediagonal {
         for(i=0;i<n;i++){
             for(j=0;j<n;j++){
                 if(i == j){
-                System.out.print(a[i][j]);
-                sum += a[i][j];
+                    System.out.print(a[i][j]);
+                    for (int k = 2; k<a[i][j]; k++){
+                        if (a[i][j]%k == 0) break;
+                        else if(a[i][j]%k != 0) sum += a[i][j];
+                    }
                 }
             }
             System.out.print("\n");
             
         }
-        System.out.println("Sum of Principle diagonal elements = " + sum);
+        System.out.println("Sum of Prime Principle diagonal elements = " + sum);
     }
 }
 
