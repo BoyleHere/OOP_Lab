@@ -38,7 +38,7 @@ public class symmetricornot {
         
         System.out.print("\n");
         
-        int b[][] = new int[n][n];
+        int[][] b = new int[n][n];
         
         for(i=0;i<n;i++){
             for(j=0;j<n;j++){

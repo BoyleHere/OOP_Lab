@@ -55,7 +55,7 @@ public class Number {
         
         while(n>0){
             int digit = n%10;
-            sum += Math.pow(digit, 3);
+            sum += (int) Math.pow(digit, 3);
             n /= 10;
         }
         

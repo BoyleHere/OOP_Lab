@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class primeno {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the range of numbers: \n");
+        System.out.println("Enter the range of numbers: ");
         int a1 = sc.nextInt();
         int a2 = sc.nextInt();
         System.out.println("The prime numbers in the given range are: ");

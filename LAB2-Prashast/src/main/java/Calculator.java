@@ -1,27 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author student
- */
-
 //Q5
 
 import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        Scanner myObj = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double n1, n2, ans;
         char oper, ch;
         do {
-            System.out.print("\nEnter first number, operator, second number : ");
-            n1 = myObj.nextDouble();
-            oper = myObj.next().charAt(0);
-            n2 = myObj.nextDouble();
+            System.out.println("Enter first number, operator, second number : ");
+            n1 = sc.nextDouble();
+            oper = sc.next().charAt(0);
+            n2 = sc.nextDouble();
             switch (oper) {
                 case '+':
                     ans = n1 + n2;
@@ -40,7 +30,7 @@ public class Calculator {
             }
             System.out.println("Answer = " + ans);
             System.out.print("\nDo another(Enter 'y' or 'n') ? ");
-            ch = myObj.next().charAt(0);
+            ch = sc.next().charAt(0);
         } while (ch != 'n');
     }
 }

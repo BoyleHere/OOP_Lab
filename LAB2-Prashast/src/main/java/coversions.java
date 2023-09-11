@@ -1,18 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
-/**
- *
- * @author student
- */
-
-/*Write a Java program to read an int number, double number and a char from keyboard and
-perform the following conversions:- int to byte, char to int, double to byte, double to int*/
-
-//Q2
-
 import java.util.Scanner;
 
 public class coversions {

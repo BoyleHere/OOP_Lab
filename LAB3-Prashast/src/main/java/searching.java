@@ -15,7 +15,7 @@ import java.util.Scanner;
 public class searching {
     public static void main(String[] args) {
         int search, index=0;
-        int a[] = {1,2,3,1,2,1,5,6,7}; 
+        int[] a = {1,2,3,1,2,1,5,6,7};
         
         System.out.println("Enter the value to be searched: ");
         Scanner sc = new Scanner(System.in);

@@ -24,8 +24,8 @@ public class Matrixmulti {
         System.out.println("Enter the number of columns of matrix B: ");
         int cb = sc.nextInt();
         
-        int a[][] = new int[ra][cab];
-        int b[][] = new int[cab][cb];
+        int[][] a = new int[ra][cab];
+        int[][] b = new int[cab][cb];
         int[][] c = new int[ra][cb];
         
         System.out.println("\nEnter values for matrix A : ");

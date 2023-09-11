@@ -19,7 +19,7 @@ public class numbers {
         int positive = 0;
         int negative = 0;
         int zero = 0;
-        System.out.println("Enter the Numbers: \n");
+        System.out.println("Enter the Numbers: ");
         for (int i = 0; i<10; i++){
             numbers[i] = myObj.nextInt();
         }
