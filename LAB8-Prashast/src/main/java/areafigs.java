@@ -23,6 +23,7 @@ class Rectangle extends Calculator{
         length=l;
         width=w;
     }
+    @Override
     void area(){
         ar = length*width;
     }
@@ -33,6 +34,7 @@ class Circle extends Calculator{
     Circle(double r){
         radius=r;
     }
+    @Override
     void area(){
         ar= 3.14*radius*radius;
     }
