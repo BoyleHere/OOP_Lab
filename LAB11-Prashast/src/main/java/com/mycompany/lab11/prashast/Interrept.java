@@ -8,7 +8,7 @@ package com.mycompany.lab11.prashast;
  *
  * @author student
  */
-/*class MyThread implements Runnable {
+class MyThread implements Runnable {
     @Override
     public void run() {
         for (int i = 1; i <= 5; i++) {
@@ -48,4 +48,3 @@ public class Interrept
         System.out.println("Main thread finished.");
     }
 }
-*/
