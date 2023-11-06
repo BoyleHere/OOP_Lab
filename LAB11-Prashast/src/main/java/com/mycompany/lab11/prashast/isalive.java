@@ -11,7 +11,7 @@ package com.mycompany.lab11.prashast;
 public class isalive {
     public static void main(String[] args) {
         int[][] data = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-        Matrix matrix = new Matrix(data);
+        /*Matrix matrix = new Matrix(data);
 
         Thread t1 = new DisplayMatrixThread(matrix);
         Thread t2 = new DisplayTransposeThread(matrix);
@@ -50,6 +50,6 @@ public class isalive {
             System.out.println("Thread t5 is alive: " + t5.isAlive());
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
